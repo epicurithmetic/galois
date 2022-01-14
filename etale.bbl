@@ -1,0 +1,155 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{golan}{book}{}
+      \name{author}{1}{}{%
+        {{hash=de32e04b87909890b3bd66403a36fcac}{%
+           family={Golan},
+           familyi={G\bibinitperiod},
+           given={Johnathon\bibnamedelima S},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Kluwer Academic Publishers}%
+      }
+      \strng{namehash}{de32e04b87909890b3bd66403a36fcac}
+      \strng{fullhash}{de32e04b87909890b3bd66403a36fcac}
+      \strng{bibnamehash}{de32e04b87909890b3bd66403a36fcac}
+      \strng{authorbibnamehash}{de32e04b87909890b3bd66403a36fcac}
+      \strng{authornamehash}{de32e04b87909890b3bd66403a36fcac}
+      \strng{authorfullhash}{de32e04b87909890b3bd66403a36fcac}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Semirings and their Applications}
+      \field{year}{1999}
+    \endentry
+    \entry{sga1}{book}{}
+      \name{author}{1}{}{%
+        {{hash=fb0e3184fdd2fcd28fa74ca67d7cdcc1}{%
+           family={Grothendieck},
+           familyi={G\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
+      \strng{fullhash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
+      \strng{bibnamehash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
+      \strng{authorbibnamehash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
+      \strng{authornamehash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
+      \strng{authorfullhash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Lecture notes in mathematics}
+      \field{title}{Revêtements étales et groupe fondamental (SGA 1)}
+      \field{volume}{224}
+      \field{year}{1971}
+    \endentry
+    \entry{ega}{article}{}
+      \name{author}{2}{}{%
+        {{hash=fb0e3184fdd2fcd28fa74ca67d7cdcc1}{%
+           family={{Grothendieck}},
+           familyi={G\bibinitperiod},
+           given={Alexander.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0a30598b0fb52d15a9ed0914eae20176}{%
+           family={{Dieudonné}},
+           familyi={D\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f17c950092ae63c688e888232a55cf2}
+      \strng{fullhash}{8f17c950092ae63c688e888232a55cf2}
+      \strng{bibnamehash}{8f17c950092ae63c688e888232a55cf2}
+      \strng{authorbibnamehash}{8f17c950092ae63c688e888232a55cf2}
+      \strng{authornamehash}{8f17c950092ae63c688e888232a55cf2}
+      \strng{authorfullhash}{8f17c950092ae63c688e888232a55cf2}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Publications Mathématiques de l'IHÉS}
+      \field{title}{{Éléments de géométrie algébrique I - IV}}
+      \field{year}{1967}
+    \endentry
+    \entry{topostheory}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0fd3c6c701987f321528f4265c0c3449}{%
+           family={Johnstone},
+           familyi={J\bibinitperiod},
+           given={Peter\bibnamedelima T.},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press 1977}%
+      }
+      \strng{namehash}{0fd3c6c701987f321528f4265c0c3449}
+      \strng{fullhash}{0fd3c6c701987f321528f4265c0c3449}
+      \strng{bibnamehash}{0fd3c6c701987f321528f4265c0c3449}
+      \strng{authorbibnamehash}{0fd3c6c701987f321528f4265c0c3449}
+      \strng{authornamehash}{0fd3c6c701987f321528f4265c0c3449}
+      \strng{authorfullhash}{0fd3c6c701987f321528f4265c0c3449}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Topos Theory}
+      \field{year}{1977}
+    \endentry
+    \entry{toenvaquie}{article}{}
+      \name{author}{2}{}{%
+        {{hash=dcbf3035d101c51fbfc0fca1538c0155}{%
+           family={{Toën}},
+           familyi={T\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=08be1239089a4a5176be0140d30e8191}{%
+           family={{Vaquiè}},
+           familyi={V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0d586b68946075e6329590b5bd25800}
+      \strng{fullhash}{c0d586b68946075e6329590b5bd25800}
+      \strng{bibnamehash}{c0d586b68946075e6329590b5bd25800}
+      \strng{authorbibnamehash}{c0d586b68946075e6329590b5bd25800}
+      \strng{authornamehash}{c0d586b68946075e6329590b5bd25800}
+      \strng{authorfullhash}{c0d586b68946075e6329590b5bd25800}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of K-Theory 3(3)}
+      \field{title}{{Au-dessous de Spec(Z)}}
+      \field{year}{2009}
+      \field{pages}{pp 437 \bibrangedash  500}
+      \range{pages}{-1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

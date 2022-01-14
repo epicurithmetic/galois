@@ -1,0 +1,75 @@
+% Style settings for Mathematics papers.
+
+% Graphics packages
+\usepackage{tikz,pgfplots,tikz-cd}
+
+
+% ams packages
+\usepackage{amsthm} % Documentation: Using the amsthm Package
+% Custom TheoremStyle for indented definitions and theorems
+\newtheoremstyle{indentDefn}
+{3pt} % Space above
+{3pt} % Space below
+{\itshape} % Body font
+{3em} % Indent amount
+{\bf} % Theorem head font
+{} % Punctuation after theorem head
+{0.5em} % Space after theorem head
+{} % Theorem head spec
+
+\newtheoremstyle{indentThm}
+{3pt} % Space above
+{0pt} % Space below
+{} % Body font
+{3em} % Indent amount
+{\bf} % Theorem head font
+{} % Punctuation after theorem head
+{0.5em} % Space after theorem head
+{} % Theorem head spec
+
+\theoremstyle{indentDefn}
+\newtheorem{defn}{Definition}
+\newtheorem{obs}{Observation}
+
+\theoremstyle{indentThm}
+\newtheorem{thm}{Theorem}
+\newtheorem{lemma}{Lemma}
+
+\theoremstyle{plain}
+
+% QED - End of proof symbol
+% \renewcommand\qedsymbol{$\blacksquare$}
+
+% Sets of numbers
+\newcommand{\bn}{\mathbb{N}}
+\newcommand{\br}{\mathbb{R}}
+\newcommand{\bq}{\mathbb{Q}}
+\newcommand{\bb}{\mathbb{B}}
+\newcommand{\bz}{\mathbb{Z}}
+\newcommand{\bc}{\mathbb{C}}
+\newcommand{\bt}{\mathbb{T}}
+\newcommand{\qplus}{\mathbb{Q}_{+}}
+\newcommand{\rplus}{\mathbb{R}_{+}}
+\newcommand{\fp}{\mathbb{F}_{p}}
+
+% Categories
+\newcommand{\ralg}{{\bf Alg}_{R}}
+\newcommand{\xaff}{{\bf Aff}_{X}}
+\newcommand{\nalg}{{\bf Alg}_{\mathbb{N}}}
+\newcommand{\naff}{{\bf Aff}_{\mathbb{N}}}
+\newcommand{\zaff}{{\bf Aff}_{\mathbb{Z}}}
+\newcommand{\fex}{{\bf FEt}_{X}}
+\newcommand{\catset}{{\bf sets}}
+\newcommand{\alg}{{\bf Alg}}
+
+% Groups
+\newcommand{\Aut}{\text{Aut}}
+\newcommand{\etfg}{\pi_{1}^{\text{\'{e}t}}}
+
+% Homomorphisms and arrows
+\newcommand{\isom}{\xrightarrow{\sim}}
+\newcommand{\homn}{\text{Hom}_{\mathbb{N}}}
+
+% Arithmetic geometry
+\newcommand{\specr}{\text{Spec}(R)}
+\newcommand{\spec}{\text{Spec}}
