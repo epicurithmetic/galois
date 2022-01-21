@@ -1,0 +1,65 @@
+Paper outline
+
+[D]: Definition
+[T]: Theorem
+[E]: Example
+[R]: Remark
+[P]: Proof
+
+Section 1: Algebra of Semirings
+
+  [D]: Monoid
+  [D]: Semiring
+  [D]: Homorphism and algebra
+
+  [D]: Module
+  [D]: Flat module/algebra
+
+  [D]: Category of R algebras
+  [T]: (Co)completeness of Alg_R
+
+Section 2: Geometry of Semirings
+
+  [D]: Affine N-scheme
+  [D]: Topology(-ies)
+  [D]: Category/site/topos of Affine N-schemes
+
+  [D]: Locally trivial schemes i.e. Finite etale morphisms
+  [E]: Booleans are simply connected
+  [D]: Category of locally trivial morphisms FEtx
+  [T]: FEtx is a Boolean Topos
+
+  [D]: Geometric point
+  [E]: Separably closed fields and Booleans
+  [T]: Pull back from FEtx to point is exact and reflects isomorphisms
+
+Section 3: Galois Category
+
+  [D]: Define Galois with Grothendieck's axioms.
+  [D]: Alternative definition in Johnstone: Boolean Topos + exact/refl functor
+  [T]: FEtx + point is Galois
+    [P]: Topos (Johnstone) with reference to previous section
+    [P]: Rob/Grothendieck/Lenstra/Milne. Point to: thesis, SGA1, and lenstra notes
+    [P]: (Co)Monadic
+  [E]: X = Spec(k) for k a field
+  [R]: Compare this theory to Artin-Galois theory
+  [E]: X = Spec(R) for R a ring
+  [E]: Booleans
+
+Section 4: Non-negative reals and real number fields
+
+  [T]: R_+ are simply connected
+  [T]: For each real point p E_p,+ and E_++ are simply connected
+
+Section 5: Natural numbers
+
+  [T]: Natural numbers are simply connected
+
+Section 6: Jim's Etale Quadratic Extensions
+
+  [R]: Motivation from group actions on plane.
+        Obivious diagonal definition doesn't work.
+        Follow nose to get "poor man's" diagonal.
+        Result has B point, therefore not a ring.
+        No idempotents, so connected.
+  [T]: R above is **not** simply connected
