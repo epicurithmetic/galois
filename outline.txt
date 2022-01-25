@@ -1,16 +1,21 @@
 Paper outline
 
 [D]: Definition
+[L]: Lemma
 [T]: Theorem
+[C]: Corollary
 [E]: Example
 [R]: Remark
 [P]: Proof
+
+
+Section 0: Introduction with a nice story
 
 Section 1: Algebra of Semirings
 
   [D]: Monoid
   [D]: Semiring
-  [D]: Homorphism and algebra
+  [D]: Homomorphism and algebra
 
   [D]: Module
   [D]: Flat module/algebra
@@ -18,42 +23,56 @@ Section 1: Algebra of Semirings
   [D]: Category of R algebras
   [T]: (Co)completeness of Alg_R
 
+
 Section 2: Geometry of Semirings
 
   [D]: Affine N-scheme
-  [D]: Topology(-ies)
-  [D]: Category/site/topos of Affine N-schemes
+  [D]: fpqc topology
+  [D]: Category/site of Affine N-schemes and the topos of sheaves on them
 
-  [D]: Locally trivial schemes i.e. Finite etale morphisms
+  [D]: Totally split schemes
+  [D]: Connected in terms of idempotents (refer also to topos theoretic definition below)
+  [L]: Maps between totally splits, and idempotent decompositions
+
+  [D]: Locally trivial schemes i.e. Finite etale morphisms. They form a category.
+  [E]: Agrees with "usual" definition for rings
   [E]: Booleans are simply connected
-  [D]: Category of locally trivial morphisms FEtx
-  [T]: FEtx is a Boolean Topos
 
   [D]: Geometric point
   [E]: Separably closed fields and Booleans
-  [T]: Pull back from FEtx to point is exact and reflects isomorphisms
+
+  [R]: Finite etale schemes form a stack in the fpqc topology. This allows one to define
+  	finite etale for more base sheaves
+
 
 Section 3: Galois Category
 
   [D]: Define Galois with Grothendieck's axioms.
-  [D]: Alternative definition in Johnstone: Boolean Topos + exact/refl functor
-  [T]: FEtx + point is Galois
-    [P]: Topos (Johnstone) with reference to previous section
-    [P]: Rob/Grothendieck/Lenstra/Milne. Point to: thesis, SGA1, and lenstra notes
-    [P]: (Co)Monadic
-  [E]: X = Spec(k) for k a field
-  [R]: Compare this theory to Artin-Galois theory
-  [E]: X = Spec(R) for R a ring
-  [E]: Booleans
+  [T]: FEtx satisfies A1-A4(?), even if disconnected
+  [T]: Pull back from FEtx to point is exact and reflects isomorphisms (if connected) A5-A6
+  [C]: FEtx is a Galois category (under the correct assumptions).
 
-Section 4: Non-negative reals and real number fields
+  [R]: Agrees with usual etale fundamental group for rings
+  [R]: Compare this theory to Artin-Galois theory (move this?)
+
+  [E]: \pi_1(Booleans)=0
+
+
+Section 4: Complemntary points of view
+
+  [R]: Fundamental groups in abstract topos theory (SGA4/Johnstone/Moerdijk)
+  	 	Comparison of definitions of connectedness
+		Alternative definition in Johnstone: Boolean Topos + exact/refl functor
+		Boolean topos (even if disconnected)
+  [R]: (Co)monadic point of view? Multiple base points?
+
+
+Section 5: Arithmetic examples
 
   [T]: R_+ are simply connected
-  [T]: For each real point p E_p,+ and E_++ are simply connected
-
-Section 5: Natural numbers
-
+  [T]: For each real point p E_p,+ and E_++ are simply connected (E a number field)
   [T]: Natural numbers are simply connected
+
 
 Section 6: Jim's Etale Quadratic Extensions
 
@@ -63,3 +82,9 @@ Section 6: Jim's Etale Quadratic Extensions
         Result has B point, therefore not a ring.
         No idempotents, so connected.
   [T]: R above is **not** simply connected
+
+
+Later topics?
+	Moduli space of (free) quadratic extensions
+	Generalize this to degree n?
+	What about non-free?
