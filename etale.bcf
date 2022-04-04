@@ -2182,13 +2182,9 @@
     <bcf:datasource type="file" datatype="bibtex">algebra.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">ega</bcf:citekey>
     <bcf:citekey order="2">toenvaquie</bcf:citekey>
-    <bcf:citekey order="3">golan</bcf:citekey>
-    <bcf:citekey order="5">sga1</bcf:citekey>
-    <bcf:citekey order="6">topostheory</bcf:citekey>
-    <bcf:citekey order="7">toenvaquie</bcf:citekey>
-    <bcf:citekey order="9">topostheory</bcf:citekey>
+    <bcf:citekey order="3">jbwittsemipos</bcf:citekey>
+    <bcf:citekey order="4">golan</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

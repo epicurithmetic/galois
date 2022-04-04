@@ -8,9 +8,9 @@
 \usepackage{amsthm} % Documentation: Using the amsthm Package
 % Custom TheoremStyle for indented definitions and theorems
 \newtheoremstyle{indentDefn}
-{3pt} % Space above
-{3pt} % Space below
-{\itshape} % Body font
+{10pt} % Space above
+{10pt} % Space below
+{} % Body font
 {3em} % Indent amount
 {\bf} % Theorem head font
 {} % Punctuation after theorem head
@@ -18,8 +18,8 @@
 {} % Theorem head spec
 
 \newtheoremstyle{indentThm}
-{3pt} % Space above
-{0pt} % Space below
+{10pt} % Space above
+{10pt} % Space below
 {} % Body font
 {3em} % Indent amount
 {\bf} % Theorem head font
@@ -53,6 +53,7 @@
 \newcommand{\fp}{\mathbb{F}_{p}}
 
 % Categories
+\newcommand{\nmod}{{\bf Mod}_{\bn}}
 \newcommand{\ralg}{{\bf Alg}_{R}}
 \newcommand{\xaff}{{\bf Aff}_{X}}
 \newcommand{\nalg}{{\bf Alg}_{\mathbb{N}}}
@@ -69,6 +70,7 @@
 % Homomorphisms and arrows
 \newcommand{\isom}{\xrightarrow{\sim}}
 \newcommand{\homn}{\text{Hom}_{\mathbb{N}}}
+\newcommand{\homnmod}{\text{Hom}_{\nmod}}
 
 % Arithmetic geometry
 \newcommand{\specr}{\text{Spec}(R)}

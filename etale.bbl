@@ -19,6 +19,29 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{jbwittsemipos}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a70b97c38971b7e01be69ed04f343634}{%
+           family={{Borger}},
+           familyi={B\bibinitperiod},
+           given={J.M.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a70b97c38971b7e01be69ed04f343634}
+      \strng{fullhash}{a70b97c38971b7e01be69ed04f343634}
+      \strng{bibnamehash}{a70b97c38971b7e01be69ed04f343634}
+      \strng{authorbibnamehash}{a70b97c38971b7e01be69ed04f343634}
+      \strng{authornamehash}{a70b97c38971b7e01be69ed04f343634}
+      \strng{authorfullhash}{a70b97c38971b7e01be69ed04f343634}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{EMS Publishing House}
+      \field{title}{{Witt vectors, semirings, and total positivity. Absolute Arithmetic and $\mathbb{F}_1$ Geometry}}
+      \field{year}{2016}
+    \endentry
     \entry{golan}{book}{}
       \name{author}{1}{}{%
         {{hash=de32e04b87909890b3bd66403a36fcac}{%
@@ -42,83 +65,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Semirings and their Applications}
       \field{year}{1999}
-    \endentry
-    \entry{sga1}{book}{}
-      \name{author}{1}{}{%
-        {{hash=fb0e3184fdd2fcd28fa74ca67d7cdcc1}{%
-           family={Grothendieck},
-           familyi={G\bibinitperiod},
-           given={Alexander},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer-Verlag}%
-      }
-      \strng{namehash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
-      \strng{fullhash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
-      \strng{bibnamehash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
-      \strng{authorbibnamehash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
-      \strng{authornamehash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
-      \strng{authorfullhash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{series}{Lecture notes in mathematics}
-      \field{title}{Revêtements étales et groupe fondamental (SGA 1)}
-      \field{volume}{224}
-      \field{year}{1971}
-    \endentry
-    \entry{ega}{article}{}
-      \name{author}{2}{}{%
-        {{hash=fb0e3184fdd2fcd28fa74ca67d7cdcc1}{%
-           family={{Grothendieck}},
-           familyi={G\bibinitperiod},
-           given={Alexander.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=0a30598b0fb52d15a9ed0914eae20176}{%
-           family={{Dieudonné}},
-           familyi={D\bibinitperiod},
-           given={Jean},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{8f17c950092ae63c688e888232a55cf2}
-      \strng{fullhash}{8f17c950092ae63c688e888232a55cf2}
-      \strng{bibnamehash}{8f17c950092ae63c688e888232a55cf2}
-      \strng{authorbibnamehash}{8f17c950092ae63c688e888232a55cf2}
-      \strng{authornamehash}{8f17c950092ae63c688e888232a55cf2}
-      \strng{authorfullhash}{8f17c950092ae63c688e888232a55cf2}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Publications Mathématiques de l'IHÉS}
-      \field{title}{{Éléments de géométrie algébrique I - IV}}
-      \field{year}{1967}
-    \endentry
-    \entry{topostheory}{book}{}
-      \name{author}{1}{}{%
-        {{hash=0fd3c6c701987f321528f4265c0c3449}{%
-           family={Johnstone},
-           familyi={J\bibinitperiod},
-           given={Peter\bibnamedelima T.},
-           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Academic Press 1977}%
-      }
-      \strng{namehash}{0fd3c6c701987f321528f4265c0c3449}
-      \strng{fullhash}{0fd3c6c701987f321528f4265c0c3449}
-      \strng{bibnamehash}{0fd3c6c701987f321528f4265c0c3449}
-      \strng{authorbibnamehash}{0fd3c6c701987f321528f4265c0c3449}
-      \strng{authornamehash}{0fd3c6c701987f321528f4265c0c3449}
-      \strng{authorfullhash}{0fd3c6c701987f321528f4265c0c3449}
-      \field{sortinit}{J}
-      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Topos Theory}
-      \field{year}{1977}
     \endentry
     \entry{toenvaquie}{article}{}
       \name{author}{2}{}{%

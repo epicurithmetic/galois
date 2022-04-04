@@ -13,15 +13,15 @@ Section 0: Introduction with a nice story
 
 Section 1: Algebra of Semirings
 
-  [D]: Monoid
-  [D]: Semiring
-  [D]: Homomorphism and algebra
+  [X][D]: Monoid
+  [ ][D]: Semiring
+  [ ][D]: Homomorphism and algebra
 
-  [D]: Module
-  [D]: Flat module/algebra
+  [ ][D]: Module
+  [ ][D]: Flat module/algebra
 
-  [D]: Category of R algebras
-  [T]: (Co)completeness of Alg_R
+  [ ][D]: Category of R algebras
+  [ ][T]: (Co)completeness of Alg_R
 
 
 Section 2: Geometry of Semirings

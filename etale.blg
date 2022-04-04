@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'etale.blg'
-[116] biber:322> INFO - === Thu Jan 13, 2022, 11:48:57
-[173] Biber.pm:415> INFO - Reading 'etale.bcf'
-[249] Biber.pm:943> INFO - Found 5 citekeys in bib section 0
-[264] Biber.pm:4256> INFO - Processing section 0
-[265] Utils.pm:75> INFO - Globbing data source 'algebra.bib'
-[265] Utils.pm:91> INFO - Globbed data source 'algebra.bib' to algebra.bib
-[332] Biber.pm:4455> INFO - Looking for bibtex format file 'algebra.bib' for section 0
-[339] bibtex.pm:1653> INFO - LaTeX decoding ...
-[351] bibtex.pm:1471> INFO - Found BibTeX data source 'algebra.bib'
-[445] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[446] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[446] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[446] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[451] bbl.pm:652> INFO - Writing 'etale.bbl' with encoding 'UTF-8'
-[454] bbl.pm:755> INFO - Output to etale.bbl
+[111] biber:322> INFO - === Mon Apr  4, 2022, 14:09:10
+[161] Biber.pm:415> INFO - Reading 'etale.bcf'
+[233] Biber.pm:943> INFO - Found 3 citekeys in bib section 0
+[249] Biber.pm:4256> INFO - Processing section 0
+[249] Utils.pm:75> INFO - Globbing data source 'algebra.bib'
+[250] Utils.pm:91> INFO - Globbed data source 'algebra.bib' to algebra.bib
+[302] Biber.pm:4455> INFO - Looking for bibtex format file 'algebra.bib' for section 0
+[303] bibtex.pm:1653> INFO - LaTeX decoding ...
+[315] bibtex.pm:1471> INFO - Found BibTeX data source 'algebra.bib'
+[435] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[435] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[435] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[435] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[440] bbl.pm:652> INFO - Writing 'etale.bbl' with encoding 'UTF-8'
+[443] bbl.pm:755> INFO - Output to etale.bbl

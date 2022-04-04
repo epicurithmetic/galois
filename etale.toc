@@ -2,16 +2,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\tocsection {}{1}{Introduction}}{1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\tocsection {}{2}{Main Theorem: ${\bf FEt}_{X}$ is a Galois Category}}{3}%
+\contentsline {section}{\tocsection {}{2}{Commutative Algebra of the Natural Numbers}}{2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\tocsection {}{3}{Booleans $\mathbb {B}$}}{3}%
+\contentsline {section}{\tocsection {}{3}{Arithmetic Geometry of the Natural Numbers}}{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\tocsection {}{4}{Non-negative Real Numbers $\mathbb {R}_{+}$}}{4}%
+\contentsline {section}{\tocsection {}{4}{Galois Category of \'{E}tale Covers}}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\tocsection {}{5}{Natural Numbers $\mathbb {N}$}}{4}%
+\contentsline {section}{\tocsection {}{5}{Non-Negative Reals and Real Number Fields}}{5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\tocsection {}{6}{Non-negative Sub-algebras of Real Number Fields}}{4}%
+\contentsline {section}{\tocsection {}{6}{Natural Numbers}}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\tocsection {}{7}{Tropicl Real Numbers $\mathbb {T}$}}{4}%
+\contentsline {section}{\tocsection {}{7}{Non-Trivial Quadratic Finite \'{E}tale Cover}}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\tocsection {}{}{References}}{5}%
+\contentsline {section}{\tocsection {}{}{References}}{8}%
