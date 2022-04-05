@@ -21,7 +21,7 @@
 \email{robert.culling@canterbury.ac.nz}
 
 % Paper title
-\title{The \'{E}tale Fundamental Group $\bn$}
+\title{The \'{E}tale Fundamental Group of $\bn$-Schemes}
 
 
 \begin{abstract}
@@ -51,15 +51,17 @@ A commutative monoid is a triple $(M,+_{M},0_{0})$ which consists of: a set, $M$
 
 We will denote a commutative monoid by its set and drop the subscripts from the binary operation and identity. Similarly we will write $a+b$ instead of $+(a,b)$. Throughout this paper commutative monoids will be referred to as $\bn$-modules and the category of $\bn$-modules will be denoted $\nmod$.
 
-The category $\nmod$ has products and coproducts. If $I$ is a set indexing a family of $\bn$-modules $\{M_{i}\}_{I}$, then the set theoretic product $\prod_{I}M_{i}$ with component wise addition and the distinguished element $0 = (...,0,...)$ is the product in $\nmod$. It has the sub-$\bn$-module $\bigoplus_{I}M_{i} \subseteq \prod_{I}M_{i}$ of elements that have only finitely many elements different from 0, this forms the coproduct of the family in $\nmod$.
+The category $\nmod$ has products and coproducts. If $I$ is a set indexing a family of $\bn$-modules $\{M_{i}\}_{I}$, then the set theoretic product $\prod_{I}M_{i}$ with component wise addition and the distinguished element $0 = (...,0,...)$ is the product in $\nmod$. It has the sub-$\bn$-module $\bigoplus_{I}M_{i} \subseteq \prod_{I}M_{i}$ of elements that have only finitely many components different from 0, this forms the coproduct of the family in $\nmod$.
 
-If $M,N$ are $\bn$-modules, then the set $\homnmod(M,N)$ is an $\bn$-module under point-wise addition of homorphisms. Thus for a fixed $\bn$-module $M$, there is an endofunctor $\homnmod(M, -): \nmod \rightarrow \nmod$ on the category of $\bn$-modules. This functor has a left adjoint, $M\otimes -$, which enduces a symmetric monoidal structure on $\nmod$ with identity $\bn$.
+If $M,N$ are $\bn$-modules, then the set $\homnmod(M,N)$ is an $\bn$-module under point-wise addition of homorphisms. Thus for a fixed $\bn$-module $M$, there is an endofunctor $\homnmod(M, -): \nmod \rightarrow \nmod$ on the category of $\bn$-modules. This functor has a left adjoint, $M\otimes -$. Thus for each $M,N$ in $\nmod$ there is an $\bn$-module $M\otimes N$ defined by the universal property of the left adjoint. This can be constructed in the same way as for $\bz$-modules, as long as one is careful to avoid negatives. See \cite{jbwittsemipos} for details.
 
 \begin{defn}
-
-A commutative semiring is defined to be a monoid object in the monoidal category $(\nmod,\otimes)$. 
-
+A commutative $\bn$-algebra is defined to be a commutative monoid $(A,+_{A},0_{A})$ equipped with a commutative binary operation denoted $\times_{A}$ that distributes over $+_{A}$, with the property that for each $a \in A$ the equation $0_{A}\times_{A}a = 0_{A}$ is true, and has identity $1_{A}$. If $(A,+_{A},\times_{A},0_{A},1_{A})$ and $(B,+_{B},\times_{B},0_{B},1_{B})$ are commutative $\bn$-algebras, then a homomorphism of $\bn$-algebras is a homomorphism of monoids $\varphi:A \rightarrow B$ that commutes with the binary operations $\times_{A}$ and $\times_{B}$. If there exists a homomorphism $\varphi: A \rightarrow B$, then we say that $B$ is an $A$-algebra.
 \end{defn}
+
+Again, we will drop all subscripts and denote the $\bn$-algebras by their underlying set. All $\bn$-algebrs are assumed to be commutative for the rest of the paper, so we will drop the use of commutative. In the literature $\bn$-algebras are more commonly referred to as semirings. Notice that an $\bn$-algebra structure on a monoid is equivalent to a commutative monoid object in the monoidal category $(\nmod, \otimes)$.
+
+
 
 
 
@@ -85,7 +87,7 @@ A commutative semiring is defined to be a monoid object in the monoidal category
 \section{Arithmetic Geometry of the Natural Numbers}
 
 \newpage
-\section{Galois Category of \'{E}tale Covers}
+\section{Galois Category of Finite \'{E}tale Morphisms}
 
 \newpage
 \section{Non-Negative Reals and Real Number Fields}

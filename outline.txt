@@ -14,8 +14,8 @@ Section 0: Introduction with a nice story
 Section 1: Algebra of Semirings
 
   [X][D]: Monoid
-  [ ][D]: Semiring
-  [ ][D]: Homomorphism and algebra
+  [X][D]: Semiring
+  [X][D]: Homomorphism and algebra
 
   [ ][D]: Module
   [ ][D]: Flat module/algebra
