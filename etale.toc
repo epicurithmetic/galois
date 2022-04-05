@@ -4,14 +4,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\tocsection {}{2}{Commutative Algebra of the Natural Numbers}}{2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\tocsection {}{3}{Arithmetic Geometry of the Natural Numbers}}{3}%
+\contentsline {section}{\tocsection {}{3}{Arithmetic Geometry of the Natural Numbers}}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\tocsection {}{4}{Galois Category of Finite \'{E}tale Morphisms}}{4}%
+\contentsline {section}{\tocsection {}{4}{Galois Category of Finite \'{E}tale Morphisms}}{5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\tocsection {}{5}{Non-Negative Reals and Real Number Fields}}{5}%
+\contentsline {section}{\tocsection {}{5}{Non-Negative Reals and Real Number Fields}}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\tocsection {}{6}{Natural Numbers}}{6}%
+\contentsline {section}{\tocsection {}{6}{Natural Numbers}}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\tocsection {}{7}{Non-Trivial Quadratic Finite \'{E}tale Cover}}{7}%
+\contentsline {section}{\tocsection {}{7}{Non-Trivial Quadratic Finite \'{E}tale Cover}}{8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\tocsection {}{}{References}}{8}%
+\contentsline {section}{\tocsection {}{}{References}}{9}%

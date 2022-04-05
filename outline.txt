@@ -17,7 +17,7 @@ Section 1: Algebra of Semirings
   [X][D]: Semiring
   [X][D]: Homomorphism and algebra
 
-  [ ][D]: Module
+  [X][D]: Module
   [ ][D]: Flat module/algebra
 
   [ ][D]: Category of R algebras

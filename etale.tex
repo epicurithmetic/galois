@@ -43,7 +43,7 @@ Most of this work was done during Robert Culling's time as James Borger's PhD st
 \newpage
 \section{Commutative Algebra of the Natural Numbers}
 
-We present the following section on the commutative algebra of the natural numbers for sake of completeness. We follow the presentation of Bertrand To{\"e}n and Michel Vaqui{\'e} \cite{toenvaquie} and James Borger \cite{jbwittsemipos}. The reader may consult these authors for further details. One may also like to consult Johnathon Golan \cite{golan} for a different perspective on monoids and semirings.
+We present the following section on the commutative algebra of the natural numbers for sake of completeness. We follow the presentation of Bertrand To{\"e}n and Michel Vaqui{\'e} \cite{toenvaquie} and James Borger \cite{jbwittsemipos}. The reader may consult these authors for further details, along with the PhD thesis of the second author \cite{}. One may also like to consult Johnathon Golan \cite{golan} for a different perspective on monoids and semirings.
 
 \begin{defn}
 A commutative monoid is a triple $(M,+_{M},0_{0})$ which consists of: a set, $M$; a commutative and associative binary operation $+:M\times M \rightarrow M$ called addition, and the distinguished element $0 \in M$ such that $+(0,m) = m$ called the identity. If $(M,+_{M},0_{M})$ and $(N,+_{N},0_{N})$ are commutative monoids, then a homomorphism is a function of sets $\varphi:M \rightarrow N$ which maps $\varphi(0_{M}) = 0_{N}$ and commutes with the binary operations $+_{M}$ and $+_{N}$.
@@ -59,7 +59,13 @@ If $M,N$ are $\bn$-modules, then the set $\homnmod(M,N)$ is an $\bn$-module unde
 A commutative $\bn$-algebra is defined to be a commutative monoid $(A,+_{A},0_{A})$ equipped with a commutative binary operation denoted $\times_{A}$ that distributes over $+_{A}$, with the property that for each $a \in A$ the equation $0_{A}\times_{A}a = 0_{A}$ is true, and has identity $1_{A}$. If $(A,+_{A},\times_{A},0_{A},1_{A})$ and $(B,+_{B},\times_{B},0_{B},1_{B})$ are commutative $\bn$-algebras, then a homomorphism of $\bn$-algebras is a homomorphism of monoids $\varphi:A \rightarrow B$ that commutes with the binary operations $\times_{A}$ and $\times_{B}$. If there exists a homomorphism $\varphi: A \rightarrow B$, then we say that $B$ is an $A$-algebra.
 \end{defn}
 
-Again, we will drop all subscripts and denote the $\bn$-algebras by their underlying set. All $\bn$-algebrs are assumed to be commutative for the rest of the paper, so we will drop the use of commutative. In the literature $\bn$-algebras are more commonly referred to as semirings. Notice that an $\bn$-algebra structure on a monoid is equivalent to a commutative monoid object in the monoidal category $(\nmod, \otimes)$.
+Again, we will drop all subscripts and denote the $\bn$-algebras by their underlying set. All $\bn$-algebrs are assumed to be commutative for the rest of the paper, so we will drop the use of commutative. In the literature $\bn$-algebras are more commonly referred to as semirings. Notice that an $\bn$-algebra structure on a monoid is equivalent to a commutative monoid object in the monoidal category $(\nmod, \otimes)$. We will use $\nalg$ to denote the category of $\bn$-algebras. Note that $\bn$ is initial in $\nalg$, so there is no clash in the definitions of an $\bn$-algebra given above.
+
+\begin{defn}
+If $R$ is an $\bn$-algebra and $M$ a commutative monoid with a bilinear map $\cdot: R\times M \rightarrow M$ with the following associativity property: for each $r,s \in R$ and $m \in M$ the following equation holds $(rs)\cdot m = r\cdot(s\cdot m)$, then we say $M$ is an $R$-module. For two $R$-modules $M,N$ a commutative monoid morphism $f:M \rightarrow N$ is a morphism of $R$-modules if it satisfies each of the equations $f(rm) = rf(m)$, for each $r \in R$.
+\end{defn}
+
+We denote the category of $R$-modules by $\rmod$ and the $R$-module $R$ is both initial and final in this category. When $R = \bn$ the category of $\bn$-modules is equivalent to the category of commutative monoids, so there is no clash of notation. 
 
 
 
