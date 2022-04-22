@@ -30,12 +30,12 @@ Section 2: Geometry of Semirings
   [D]: fpqc topology
   [D]: Category/site of Affine N-schemes and the topos of sheaves on them
 
-  [D]: Totally split schemes
+  [D]: Totally split morphisms (totally split functor)
   [D]: Connected in terms of idempotents (refer also to topos theoretic definition below)
-  [L]: Maps between totally splits, and idempotent decompositions
+  [L]: Maps between totally splits, and idempotent decompositions (Key lemma)
 
   [D]: Locally trivial schemes i.e. Finite etale morphisms. They form a category.
-  [E]: Agrees with "usual" definition for rings
+  [T]: Agrees with "usual" definition for rings (Agrees with usual definition modulo choice of topology)
   [E]: Booleans are simply connected
 
   [D]: Geometric point
