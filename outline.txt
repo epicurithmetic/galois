@@ -26,22 +26,22 @@ Section 1: Algebra of Semirings
 
 Section 2: Geometry of Semirings
 
-  [D]: Affine N-scheme
-  [D]: fpqc topology
-  [D]: Category/site of Affine N-schemes and the topos of sheaves on them
+  [X][D]: Affine N-scheme
+  [X][D]: fpqc topology
+  [X][D]: Category/site of Affine N-schemes and the topos of sheaves on them
 
-  [D]: Totally split schemes
-  [D]: Connected in terms of idempotents (refer also to topos theoretic definition below)
-  [L]: Maps between totally splits, and idempotent decompositions
+  [X][D]: Totally split morphisms
+  [ ][D]: Connected in terms of idempotents (refer also to topos theoretic definition below)
+  [ ][L]: Maps between totally splits, and idempotent decompositions
 
-  [D]: Locally trivial schemes i.e. Finite etale morphisms. They form a category.
-  [E]: Agrees with "usual" definition for rings
-  [E]: Booleans are simply connected
+  [ ][D]: Locally trivial schemes i.e. Finite etale morphisms. They form a category.
+  [ ][E]: Agrees with "usual" definition for rings
+  [ ][E]: Booleans are simply connected
 
-  [D]: Geometric point
-  [E]: Separably closed fields and Booleans
+  [ ][D]: Geometric point
+  [ ][E]: Separably closed fields and Booleans
 
-  [R]: Finite etale schemes form a stack in the fpqc topology. This allows one to define
+  [ ][R]: Finite etale schemes form a stack in the fpqc topology. This allows one to define
   	finite etale for more base sheaves
 
 
