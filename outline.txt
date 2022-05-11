@@ -26,9 +26,10 @@ Section 1: Algebra of Semirings
 
 Section 2: Geometry of Semirings
 
-  [D]: Affine N-scheme
-  [D]: fpqc topology
-  [D]: Category/site of Affine N-schemes and the topos of sheaves on them
+  [X][D]: Affine N-scheme
+  [X][D]: fpqc topology
+  [X][D]: Category/site of Affine N-schemes and the topos of sheaves on them
+
 
   [D]: Totally split morphisms (totally split functor)
   [D]: Connected in terms of idempotents (refer also to topos theoretic definition below)
@@ -38,10 +39,19 @@ Section 2: Geometry of Semirings
   [T]: Agrees with "usual" definition for rings (Agrees with usual definition modulo choice of topology)
   [E]: Booleans are simply connected
 
-  [D]: Geometric point
-  [E]: Separably closed fields and Booleans
+  [X][D]: Totally split morphisms
+  [ ][D]: Connected in terms of idempotents (refer also to topos theoretic definition below)
+  [ ][L]: Maps between totally splits, and idempotent decompositions
 
-  [R]: Finite etale schemes form a stack in the fpqc topology. This allows one to define
+  [ ][D]: Locally trivial schemes i.e. Finite etale morphisms. They form a category.
+  [ ][E]: Agrees with "usual" definition for rings
+  [ ][E]: Booleans are simply connected
+
+
+  [ ][D]: Geometric point
+  [ ][E]: Separably closed fields and Booleans
+
+  [ ][R]: Finite etale schemes form a stack in the fpqc topology. This allows one to define
   	finite etale for more base sheaves
 
 
@@ -61,9 +71,9 @@ Section 3: Galois Category
 Section 4: Complemntary points of view
 
   [R]: Fundamental groups in abstract topos theory (SGA4/Johnstone/Moerdijk)
-  	 	Comparison of definitions of connectedness
-		Alternative definition in Johnstone: Boolean Topos + exact/refl functor
-		Boolean topos (even if disconnected)
+  	 	 Comparison of definitions of connectedness
+		   Alternative definition in Johnstone: Boolean Topos + exact/refl functor
+		   Boolean topos (even if disconnected)
   [R]: (Co)monadic point of view? Multiple base points?
 
 

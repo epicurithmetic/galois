@@ -26,7 +26,7 @@
 
 \begin{abstract}
 
-We do some cool stuff. You should read this. 
+We do some cool stuff. You should read this.
 
 \end{abstract}
 
@@ -93,6 +93,57 @@ We denote the category of $R$-modules by $\rmod$ and the $R$-module $R$ is both 
 
 \newpage
 \section{Arithmetic Geometry over the Natural Numbers}
+
+\begin{defn}
+If $X: \nalg \rightarrow \catset$ is a representable functor, then we say $X$ is an affine $\bn$-scheme.
+\end{defn}
+
+We denote the category of $\bn$-schemes, with the natural transformations between them, by $\naff$. We note that $\naff$ is by definition a full and faithful subcategory of $\pre(\naff)$.
+
+\begin{defn}
+Let $X$ be a presheaf on $\naff$ and $(X_{i} \rightarrow X)_{i\in I}$ be a family of affine $\bn$-schemes over $X$. We say the family of $\bn$-schemes is a flat cover if (i) each morphism $X_{j}\rightarrow X$ is flat and (ii) the collection is faithful.
+\end{defn}
+
+\begin{defn}
+Let $X$ be a presheaf on $\naff$ and $(X_{i}\rightarrow X)_{i \in I}$ a flat cover of $X$. If there exists some finite set $J \subseteq I$ such that $(X_{j}\rightarrow X)_{j\in J}$ is a flat cover of $X$, then we say $(X_{i}\rightarrow X)_{i \in I}$ is an fpqc cover of $X$.
+\end{defn}
+
+Bertrand To{\"e}n and Michel Vaqui{\'e} show the fpqc coverings form a Grothedieck topology and that the affine $\bn$-schemes are sheaves on the site ($\naff$,fpqc) \cite{toenvaquie}. In light of their work we see the following full and faithful embeddings of subcategories $\naff \subseteq \shf(\naff) \subseteq \pre(\naff)$. Therefore we should consider the geometry of the natural numbers to include these broader categories of sheaves and presheaves.
+
+\begin{defn}
+If $Y \rightarrow X$ is a morphism of presheaves on $\naff$, then we say $Y \rightarrow X$ is totally split if there exists a finite set $I$ and an isomorphism $f: Y \rightarrow \coprod_{I}X$.
+\end{defn}
+
+We say that a morphism of split morphisms(schemes?) is split if it is defined by a set map.
+
+\begin{defn}
+
+\end{defn}
+
+We say a morphism is finite \'{e}tale if it is fpqc locally totally split.
+
+\begin{defn}
+Let $Y \rightarrow X$ be a morphism of presheaves on $\naff$. If there exists an fpqc cover $(U_{i}\rightarrow X)_{i\in I}$ and a family of finite sets $N_{i}$ such that for each $i$ there exists an isomorphism $Y \times_{X} U_{i} \cong \coprod_{I} U_{i}$, then we say the morphism $Y \rightarrow X$ is finite \'{e}tale.
+\end{defn}
+
+If $Y,Z \rightarrow X$ are finite \'{e}tale morphisms, then we may assume there is a cover of $(U_{i}\rightarrow X)_{i \in I}$ that splits both $Y,Z$ and that any morphism $f: Y \rightarrow Z$ is
+
+\begin{lemma}
+If $\varphi:Y \rightarrow X$ and $\psi: Z \rightarrow X$ are finite \'{e}tale morphisms with a morphism $f: Y \rightarrow X$, then there exists an fpqc cover $(U_{i} \rightarrow X)$ such that (i) $Y\times_{X}U_{i} \cong \coprod_{N_{i}}U_{i}$ (ii) $Z\times_{X}U_{i} \cong \coprod_{M_{i}}U_{i}$ for some finite sets $N_{i}, M_{i}$.
+
+Furthermore the morphism $f_{i}: \coprod_{N_{i}}U_{i} \rightarrow \coprod_{M_{i}}U_{i}$ induced by the pullback is determined by a set map $\alpha_{i}: N_{i} \rightarrow M_{i}$.
+\end{lemma}
+
+
+
+
+
+
+
+
+
+
+
 
 \newpage
 \section{Galois Category of Finite \'{E}tale Morphisms}

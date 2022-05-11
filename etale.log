@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.8.19)  12 MAY 2022 10:20
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.1)  29 APR 2022 12:27
+>>>>>>> b7e67ee633116f97c88b75ebb3fa727c3265bb50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**etale.tex
+**etale
 (./etale.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-08-07>
@@ -1003,6 +1007,7 @@ Package logreq Info: Writing requests to 'etale.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  33627 strings out of 480893
  787476 string characters out of 5911972
  1536424 words of memory out of 5000000
@@ -1026,9 +1031,36 @@ ic/amsfonts/symbols/msbm10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msbm5.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm7.pfb>
 Output written on etale.pdf (10 pages, 173563 bytes).
+=======
+ 33563 strings out of 481239
+ 785634 string characters out of 5920378
+ 1529757 words of memory out of 5000000
+ 48138 multiletter control sequences out of 15000+600000
+ 540981 words of font info for 61 fonts, out of 8000000 for 9000
+ 1302 hyphenation exceptions out of 8191
+ 71i,8n,102p,3212b,1160s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on etale.pdf (10 pages, 196519 bytes).
+>>>>>>> b7e67ee633116f97c88b75ebb3fa727c3265bb50
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
